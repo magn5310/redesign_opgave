@@ -60,6 +60,9 @@ footer p {
   margin: 5rem 2rem;
   gap: 20px;
 }
+h2 {
+  color: red;
+}
 
 .gridbillede {
   grid-row: 1;
