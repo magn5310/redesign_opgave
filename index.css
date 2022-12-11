@@ -51,7 +51,9 @@ footer p {
   margin-block: 1rem;
 }
 .kasse {
-  background-color: rgba(0, 0, 0, 0.169);
+  background-color: rgba(0, 0, 0, 0.692);
+  margin: 0 5rem;
+  padding-block: 1rem;
 }
 .gridforside {
   display: grid;
