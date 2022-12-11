@@ -1,0 +1,25 @@
+html {
+  --backcolor: #0c0807;
+}
+
+body {
+  background-image: url(billeder/curtains.webp);
+  background-color: var(--backcolor);
+  background-repeat: no-repeat;
+  background-size: 45rem;
+  background-position: 50% -20%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  font-size: 0.7rem;
+  justify-content: space-between;
+  margin-right: 3rem;
+}
+nav a {
+  color: red;
+}
+a {
+  text-decoration: none;
+}
