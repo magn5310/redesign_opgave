@@ -36,6 +36,7 @@ a {
 }
 h1 {
   color: red;
+  font-size: 2rem;
 }
 
 main {
@@ -45,5 +46,12 @@ main {
 @media (min-width: 800px) {
   body {
     background-size: 150rem;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  nav ul {
+    margin: 0 7rem;
+    font-size: large;
   }
 }

@@ -15,6 +15,9 @@ h1 {
   display: flex;
   justify-content: center;
 }
+button {
+  margin-top: 1rem;
+}
 form {
   color: red;
   padding: 0.5rem;
@@ -24,9 +27,7 @@ form {
   margin: 5rem;
 }
 label,
-input,
-select,
-textarea {
+input {
   display: block;
   margin-top: 1%;
   width: 100%;
@@ -38,7 +39,7 @@ textarea {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: auto;
-  padding: 10px 10px 0px 10px;
+  padding: 10px 10px 10px 10px;
   bottom: 0;
   width: 100%;
 }
@@ -70,5 +71,40 @@ footer p {
   color: red;
   border: solid;
 }
+.knap2 {
+  color: black;
+  background-color: red;
+  padding: 0.2rem;
+  border-radius: 8px;
+}
 @media (min-width: 800px) {
+  .lilithforside {
+    padding: 2rem 10rem;
+  }
+  main {
+    margin-left: 2.4rem;
+  }
+  .indexknap {
+    color: red;
+    border: solid;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 0 30rem;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+  }
+  .gridforside {
+    display: grid;
+    grid-template-rows: auto, 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 5rem 5rem;
+    gap: 20px;
+  }
+  label,
+  input {
+    display: block;
+    margin-top: 1%;
+    width: 45%;
+  }
 }
