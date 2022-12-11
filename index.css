@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+}
+
+.lilithforside {
+  padding: 1rem 4rem;
+}
+
+.indexknap {
+  color: black;
+  background-color: red;
+  padding: 0.3rem;
+  margin: 0 9rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+}
