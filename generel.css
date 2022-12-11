@@ -24,9 +24,9 @@ body {
 nav ul {
   list-style: none;
   display: flex;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   justify-content: space-between;
-  margin-right: 3rem;
+  margin: 0 3rem;
 }
 nav a {
   color: red;
@@ -36,4 +36,14 @@ a {
 }
 h1 {
   color: red;
+}
+
+main {
+  max-width: 1200px;
+  margin-top: 2.4rem;
+}
+@media (min-width: 800px) {
+  body {
+    background-size: 150rem;
+  }
 }

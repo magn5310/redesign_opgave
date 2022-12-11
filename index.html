@@ -11,6 +11,9 @@
     <title>Forside</title>
   </head>
   <header>
+    <h1>Placeholder logo</h1>
+  </header>
+  <body>
     <nav>
       <ul>
         <li><a href="index.html">Forside</a></li>
@@ -20,24 +23,46 @@
         <li><a href="arkiv.html">Arkiv</a></li>
       </ul>
     </nav>
-  </header>
-  <body>
     <main>
       <div>
         <h1>Aktuelt</h1>
         <img class="lilithforside" src="billeder/lilith.png" alt="lilith plakat" />
         <a class="indexknap" href="forestillinger.html">Forestillinger</a>
       </div>
+      <div class="gridforside">
+        <img class="gridbillede" src="billeder/lilith.png" alt="placeholder" />
+        <div class="gridtext">
+          <h2>Tihi</h2>
+          <p>Bla bla bla</p>
+          <button>Klik her</button>
+        </div>
+      </div>
       <form>
-        <label for="full-name">Fulde navn</label>
-        <input id="full-name" name="fname" type="text" />
+        <!-- Formular-indhold -->
+        <div class="form-felt">
+          <label for="navn"
+            >Fulde navn
+            <input placeholder="fx Anders Andersen " name="fnavn" type="text" />
+          </label>
+        </div>
 
-        <label for="email">E-mail</label>
-        <input id="email" name="email" type="email" />
+        <div class="form-felt">
+          <label for="email"
+            >E-mail
+            <input placeholder="andersandersen@gmail.com" name="mail" type="email" />
+          </label>
+        </div>
 
-        <button>Indsend</button>
+        <button id="button">Indsend</button>
       </form>
     </main>
-    <footer></footer>
+    <footer id="footer">
+      <div class="kasse">
+        <p>Livingstones Kabinet</p>
+        <p>Administration: c/o Anny Dirchsen, Valbygårdsvej 16 | DK-2500 Valby | +45 61 66 98 07 | admin@livingstoneskabinet.com</p>
+        <p>Artistic: Livingstones Kabinet, +45 26 47 24 19/+45 20 87 15 87 | mail@livingstoneskabinet.com</p>
+        <p>Lavet af gruppe 7</p>
+      </div>
+    </footer>
   </body>
 </html>
