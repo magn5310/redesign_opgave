@@ -1,0 +1,24 @@
+/**************Farver+fonte****************/
+
+p {
+  color: white;
+  margin: 10px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  margin: 30px;
+}
+
+/************grid************/
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
