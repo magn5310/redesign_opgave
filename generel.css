@@ -47,8 +47,8 @@ body {
   background-image: url(billeder/curtains.webp);
   background-color: var(--backcolor);
   background-repeat: no-repeat;
-  background-size: 45rem;
-  background-position: 50% -20%;
+  background-size: cover;
+  background-position: center;
 }
 
 /***********farver og fonte**********/
