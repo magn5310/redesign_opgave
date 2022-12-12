@@ -76,6 +76,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  font-size: 1.3rem;
+}
+
 h1 {
   color: red;
   font-size: 2rem;
