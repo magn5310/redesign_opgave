@@ -38,6 +38,7 @@ nav ul {
   font-size: 0.8rem;
   justify-content: space-between;
   margin: 0 3rem;
+  font-family: Oranienbaum;
 }
 
 nav a {
@@ -50,6 +51,15 @@ h1 {
   color: red;
   font-size: 2rem;
   text-align: center;
+  font-family: Oranienbaum;
+}
+
+h2 {
+  font-family: Oranienbaum;
+}
+
+h3 {
+  font-family: Oranienbaum;
 }
 
 main {
