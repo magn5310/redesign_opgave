@@ -73,7 +73,9 @@ video {
   .lilithforside {
     padding: 2rem 10rem;
   }
-
+  main {
+    margin-left: 2.4rem;
+  }
   .indexknap {
     color: red;
     border: solid;
