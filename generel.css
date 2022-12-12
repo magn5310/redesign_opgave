@@ -50,6 +50,14 @@ body {
   background-position: center;
 }
 
+/***********farver og fonte**********/
+
+p {
+  color: white;
+  margin: 10px;
+  font-family: special elite;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -62,9 +70,15 @@ nav ul {
 nav a {
   color: red;
 }
+
 a {
   text-decoration: none;
 }
+
+li {
+  font-size: 1.3rem;
+}
+
 h1 {
   color: red;
   font-size: 2rem;
@@ -73,12 +87,19 @@ h1 {
 }
 
 h2 {
-  font-family: Oranienbaum;
+  color: white;
+  margin: 20px;
+  font-family: Courier Prime;
+  text-align: center;
+  font-size: 40px;
 }
 
 h3 {
-  font-family: Oranienbaum;
+  color: white;
+  margin: 30px;
+  font-family: Courier Prime;
 }
+
 a:hover {
   color: burlywood;
   transition: 0.2s;
