@@ -8,15 +8,15 @@ p {
 
 h2 {
   color: white;
-  text-align: center;
   margin: 20px;
-  font-family: Oranienbaum;
+  font-family: Courier Prime;
+  text-align: center;
 }
 
 h3 {
   color: white;
   margin: 30px;
-  font-family: Oranienbaum;
+  font-family: Courier Prime;
 }
 
 /************grid************/
