@@ -3,6 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+.logo {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.logoimg {
+  display: grid;
+  grid-column: 3/5;
+  margin-top: -1rem;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -28,6 +39,7 @@ nav ul {
   justify-content: space-between;
   margin: 0 3rem;
 }
+
 nav a {
   color: red;
 }

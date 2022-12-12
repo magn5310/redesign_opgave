@@ -37,7 +37,7 @@ input {
   background-image: url(billeder/footerbillede.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 80%;
   margin-top: auto;
   padding: 10px 10px 10px 10px;
   bottom: 0;
@@ -51,7 +51,7 @@ footer p {
   margin-block: 1rem;
 }
 .kasse {
-  background-color: rgba(0, 0, 0, 0.692);
+  background-color: rgba(0, 0, 0, 0.475);
   margin: 0 5rem;
   padding-block: 1rem;
 }
@@ -75,6 +75,9 @@ h2 {
   grid-column: 3/5;
   color: red;
   border: solid;
+}
+video {
+  width: 100%;
 }
 .knap2 {
   color: black;
