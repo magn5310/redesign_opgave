@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   background-size: 100%;
   margin-top: auto;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   bottom: 0;
   width: 100%;
 }
@@ -44,7 +44,7 @@ html {
 }
 
 body {
-  background-image: url(billeder/curtains.webp);
+  background-image: url(billeder/Curtains.webp);
   background-color: var(--backcolor);
   background-repeat: no-repeat;
   background-size: cover;
@@ -74,10 +74,6 @@ nav a {
 
 a {
   text-decoration: none;
-}
-
-li {
-  font-size: 1.3rem;
 }
 
 h1 {
@@ -120,5 +116,8 @@ main {
   nav ul {
     margin: 0 7rem;
     font-size: large;
+  }
+  li {
+    font-size: 1.3rem;
   }
 }

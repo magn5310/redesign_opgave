@@ -11,4 +11,5 @@ p {
 
 .historie_grid {
   grid-column: 1;
+  margin-left: 5rem;
 }
