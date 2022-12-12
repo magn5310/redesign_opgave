@@ -39,26 +39,6 @@ input {
   width: 80%;
 }
 
-#footer {
-  background-image: url(billeder/footerbillede.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  margin-top: auto;
-  padding: 10px 10px 10px 10px;
-  bottom: 0;
-  width: 100%;
-}
-
-footer p {
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 0.8rem;
-  margin-block: 1rem;
-}
-.kasse {
-  background-color: rgba(0, 0, 0, 0.475);
-}
 .gridforside {
   display: grid;
   grid-template-rows: auto, 1fr;
