@@ -7,14 +7,18 @@ h1 {
 }
 
 .indexknap {
-  color: red;
+  color: black;
   border: solid;
+  border-color: #b08969;
+  background-color: #d7cbc1;
   padding: 0.3rem;
-  margin: 0 9rem;
-  border-radius: 0.3rem;
+  margin: 0 14rem;
+  border-radius: 0.5rem;
   display: flex;
   justify-content: center;
+  font-family: special elite;
 }
+
 button {
   margin-top: 1rem;
 }
@@ -65,9 +69,12 @@ video {
 }
 .knap2 {
   color: black;
-  background-color: red;
-  padding: 0.2rem;
+  background-color: #d7cbc1;
+  border: solid;
+  border-color: #b08969;
+  padding: 0.3rem;
   border-radius: 8px;
+  font-family: special elite;
 }
 @media (min-width: 800px) {
   .lilithforside {
@@ -85,6 +92,7 @@ video {
     border-radius: 0.3rem;
     display: flex;
     justify-content: center;
+    font-family: special elite;
   }
   .gridforside {
     display: grid;
