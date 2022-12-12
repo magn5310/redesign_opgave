@@ -3,3 +3,12 @@ p {
   font-family: special elite;
   margin: 2rem;
 }
+
+.om_os_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.historie_grid {
+  grid-column: 1;
+}
