@@ -11,7 +11,6 @@
 .logoimg {
   display: grid;
   grid-column: 3/5;
-  margin-top: -1rem;
 }
 
 img {
@@ -60,6 +59,10 @@ h2 {
 
 h3 {
   font-family: Oranienbaum;
+}
+a:hover {
+  color: burlywood;
+  transition: 0.2s;
 }
 
 main {
