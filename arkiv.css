@@ -17,6 +17,9 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+#billet {
+  background-image: url(billeder/arkivbillet.webp);
+}
 
 .boks {
   border: 3px solid rgb(93, 14, 14);
