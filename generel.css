@@ -47,8 +47,8 @@ body {
   background-image: url(billeder/Curtains.webp);
   background-color: var(--backcolor);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: 70rem;
+  background-position: 50% 30%;
 }
 
 /***********farver og fonte**********/

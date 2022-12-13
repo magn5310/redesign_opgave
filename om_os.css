@@ -3,13 +3,18 @@ p {
   font-family: special elite;
   margin: 2rem;
 }
-
-.om_os_grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+li {
+  font-size: 1.1rem;
 }
 
-.historie_grid {
-  grid-column: 1;
-  margin-left: 5rem;
+@media (min-width: 800px) {
+  .om_os_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .historie_grid {
+    grid-column: 1;
+    margin-left: 5rem;
+  }
 }
