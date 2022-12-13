@@ -47,8 +47,9 @@ body {
   background-image: url(billeder/Curtains.webp);
   background-color: var(--backcolor);
   background-repeat: no-repeat;
-  background-size: 70rem;
+  background-size: 100%;
   background-position: 50% 30%;
+  height: 100%;
 }
 
 /***********farver og fonte**********/
@@ -108,7 +109,6 @@ a:hover {
 }
 
 main {
-  max-width: 1200px;
   margin-top: 2.4rem;
 }
 @media (min-width: 800px) {
