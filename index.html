@@ -1,88 +1,92 @@
 <!DOCTYPE html>
 <html lang="da">
-  <head>
-    <meta name="robots" content="noindex" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="generel.css" />
-    <link rel="stylesheet" href="index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Staatliches&display=swap" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet" />
 
-    <title>Forside - Lilith</title>
-  </head>
+<head>
+  <meta name="robots" content="noindex" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="generel.css" />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Staatliches&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet" />
 
-  <body>
-    <header>
-      <div class="logo">
-        <a class="logoimg" href="index.html"><img src="billeder/livingstones_logo.webp" class="logoimg" alt="logo" /></a>
+  <title>Forside - Lilith</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a class="logoimg" href="index.html"><img src="billeder/livingstones_logo.webp" class="logoimg" alt="logo" /></a>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Forside</a></li>
+        <li><a href="forestillinger.html">Forestillinger</a></li>
+        <li><a href="kalender.html">Kalender</a></li>
+        <li><a href="om_os.html">Om os</a></li>
+        <li><a href="arkiv.html">Arkiv</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="billet"></div>
+    <div>
+      <img class="lilithforside" src="billeder/lilith.webp" alt="lilith plakat" />
+      <a class="indexknap" href="forestillinger.html">Forestillinger</a>
+    </div>
+    <div class="gridforside">
+      <div class="gridbillede">
+        <video controls class="gridbillede"
+          src="https://astamalmgren.dk/kea/05_indhold/02_redesign/Livingstone_full.mp4"></video>
       </div>
+      <div class="gridtext">
+        <h2>Hvad er Livingstone's Kabinet?</h2>
+        <p>
+          Livingstone's Kabinet er en teatergruppe, men ikke én som de andre... <br />
+          <br />
+          Nina Kareis og Pete Livingstone forklarer hvordan deres anderledes scenekunst formår at overraske og
+          underholde gang på gang. <br />
 
-      <nav>
-        <ul>
-          <li><a href="index.html">Forside</a></li>
-          <li><a href="forestillinger.html">Forestillinger</a></li>
-          <li><a href="kalender.html">Kalender</a></li>
-          <li><a href="om_os.html">Om os</a></li>
-          <li><a href="arkiv.html">Arkiv</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div id="billet"></div>
-      <div>
-        <img class="lilithforside" src="billeder/lilith.webp" alt="lilith plakat" />
-        <a class="indexknap" href="forestillinger.html">Forestillinger</a>
+          <br />
+          Som Pete siger: "definitionen på at være underholdende er ikke at være kedelig"
+        </p>
       </div>
-      <div class="gridforside">
-        <div class="gridbillede">
-          <video controls class="gridbillede" src="https://astamalmgren.dk/kea/05_indhold/02_redesign/Livingstone_full.mp4"></video>
+    </div>
+    <form class="formgrid">
+      <!-- Formular-indhold -->
+      <div class="formplace">
+        <div class="form-felt">
+          <label for="nyhedsbrev">Nyhedsbrev</label>
+          <label for="navn">Fulde navn
+            <input placeholder="fx Anders Andersen " name="fnavn" type="text" />
+          </label>
         </div>
-        <div class="gridtext">
-          <h2>Hvem er Livingstones Kabinet</h2>
-          <p>
-            Livingstones Kabinet er ikke en teatergruppe som andre. <br />
-            <br />
-            Nina Kareis og Pete Livingstone forklarer hvordan deres anderledes scenekunst formår at overraske og underholde gang på gang. <br />
 
-            <br />
-            Som Pete siger: "definitionen på at være underholdende er ikke at være kedelig"
-          </p>
+        <div class="form-felt">
+          <label for="email">E-mail
+            <input placeholder="andersandersen@gmail.com" name="mail" type="email" />
+          </label>
+          <a class="knap2" href="#">Klik her</a>
         </div>
       </div>
-      <form class="formgrid">
-        <!-- Formular-indhold -->
-        <div class="formplace">
-          <div class="form-felt">
-            <label for="nyhedsbrev">Nyhedsbrev</label>
-            <label for="navn"
-              >Fulde navn
-              <input placeholder="fx Anders Andersen " name="fnavn" type="text" />
-            </label>
-          </div>
+    </form>
+  </main>
+  <footer id="footer">
+    <div class="kasse">
+      <p>Livingstones Kabinet</p>
+      <p>Administration: c/o Anny Dirchsen, Valbygårdsvej 16 | DK-2500 Valby | +45 61 66 98 07 |
+        admin@livingstoneskabinet.com</p>
+      <p>Artistic: Livingstones Kabinet, +45 26 47 24 19/+45 20 87 15 87 | mail@livingstoneskabinet.com</p>
+      <p>Lavet af gruppe 7</p>
+    </div>
+  </footer>
+</body>
 
-          <div class="form-felt">
-            <label for="email"
-              >E-mail
-              <input placeholder="andersandersen@gmail.com" name="mail" type="email" />
-            </label>
-            <a class="knap2" href="#">Klik her</a>
-          </div>
-        </div>
-      </form>
-    </main>
-    <footer id="footer">
-      <div class="kasse">
-        <p>Livingstones Kabinet</p>
-        <p>Administration: c/o Anny Dirchsen, Valbygårdsvej 16 | DK-2500 Valby | +45 61 66 98 07 | admin@livingstoneskabinet.com</p>
-        <p>Artistic: Livingstones Kabinet, +45 26 47 24 19/+45 20 87 15 87 | mail@livingstoneskabinet.com</p>
-        <p>Lavet af gruppe 7</p>
-      </div>
-    </footer>
-  </body>
 </html>
