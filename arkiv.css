@@ -19,6 +19,7 @@
 }
 #billet {
   background-image: url(billeder/arkivbillet.webp);
+  width: 40%;
 }
 
 .boks {
