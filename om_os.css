@@ -2,6 +2,7 @@ p {
   color: white;
   font-family: special elite;
   margin: 2rem;
+  line-height: 2;
 }
 li {
   font-size: 1.1rem;
