@@ -8,6 +8,9 @@
 img {
   padding: 10px;
 }
+#billet {
+  background-image: url(billeder/forestillingerbillet.webp);
+}
 
 .billetknap {
   background-color: #d7cbc1;

@@ -42,6 +42,14 @@ img {
 html {
   --backcolor: #0c0807;
 }
+#billet {
+  background-image: url(billeder/aktueltbillet.webp);
+  aspect-ratio: 2/1;
+  width: 50%;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 body {
   background-image: url(billeder/Curtains.webp);

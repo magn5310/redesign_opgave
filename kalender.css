@@ -31,6 +31,9 @@ nav {
 li {
   font-size: 1.1rem;
 }
+#billet {
+  background-image: url(billeder/kalenderbillet.webp);
+}
 
 /************grid************/
 .grid {
