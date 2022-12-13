@@ -9,6 +9,14 @@ li {
 img {
   padding: 0 1rem;
 }
+#billet {
+  background-image: url(billeder/billet.webp);
+  aspect-ratio: 2/1;
+  width: 50%;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 @media (min-width: 800px) {
   .om_os_grid {
