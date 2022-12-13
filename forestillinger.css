@@ -8,3 +8,15 @@
 img {
   padding: 10px;
 }
+
+.billetknap {
+  background-color: #d7cbc1;
+  color: black;
+  border: solid;
+  border-color: #b08969;
+  padding: 0.3rem;
+  border-radius: 8px;
+  font-family: special elite;
+  display: flex;
+  justify-content: center;
+}
