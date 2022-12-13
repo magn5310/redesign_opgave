@@ -78,6 +78,11 @@ video {
   border-radius: 8px;
   font-family: special elite;
 }
+
+label {
+  font-family: special elite;
+}
+
 @media (min-width: 800px) {
   .lilithforside {
     padding: 2rem 10rem;
