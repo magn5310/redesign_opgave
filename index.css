@@ -51,7 +51,7 @@ input {
   gap: 20px;
 }
 h2 {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .gridtext {
   grid-row: 2;
@@ -82,7 +82,7 @@ label {
   font-family: special elite;
 }
 p {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 }
 
 @media (min-width: 800px) {
