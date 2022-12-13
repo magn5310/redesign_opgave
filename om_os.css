@@ -6,6 +6,9 @@ p {
 li {
   font-size: 1.1rem;
 }
+img {
+  padding: 0 1rem;
+}
 
 @media (min-width: 800px) {
   .om_os_grid {
