@@ -60,7 +60,7 @@ body {
   background-image: url(billeder/Curtains.webp);
   background-color: var(--backcolor);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 190%;
   background-position: 50% 30%;
   height: 100vh;
 }
