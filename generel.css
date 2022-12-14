@@ -62,7 +62,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 50% 30%;
-  height: 100%;
+  height: 100vh;
 }
 
 /***********farver og fonte**********/
@@ -74,6 +74,9 @@ p {
 }
 nav {
   font-family: Oranienbaum;
+  --less-than: 600;
+  --burger-lines: #c92c24;
+  --burger-border: #c92c24;
 }
 nav ul {
   list-style: none;
