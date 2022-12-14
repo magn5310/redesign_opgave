@@ -57,7 +57,7 @@ html {
 }
 
 body {
-  background-image: url(billeder/Curtains.webp);
+  background-image: url(billeder/curtains_bg.webp);
   background-color: var(--backcolor);
   background-repeat: no-repeat;
   background-size: 190%;
