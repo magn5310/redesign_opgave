@@ -61,4 +61,8 @@ p {
     margin-left: 5rem;
     margin-right: 5rem;
   }
+
+  .italic {
+    margin: 5rem;
+  }
 }
