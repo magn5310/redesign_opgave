@@ -24,17 +24,6 @@ h3 {
   font-family: Courier Prime;
 }
 
-nav {
-  font-family: Oranienbaum;
-}
-
-li {
-  font-size: 1.1rem;
-}
-#billet {
-  background-image: url(billeder/kalenderbillet.webp);
-}
-
 /************grid************/
 .grid {
   display: grid;
@@ -57,4 +46,7 @@ li {
 }
 body {
   background-position: 50% 10%;
+}
+
+@media (min-width: 800px) {
 }
