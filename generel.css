@@ -136,4 +136,7 @@ main {
   li {
     font-size: 1.3rem;
   }
+  p {
+    line-height: 2;
+  }
 }
