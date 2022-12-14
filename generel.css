@@ -29,6 +29,7 @@ footer p {
   display: grid;
   margin-top: auto;
   margin-left: auto;
+  padding-bottom: 2rem;
   grid-template-columns: repeat(6, 1fr);
 }
 .logoimg {
@@ -153,5 +154,8 @@ main {
     border-radius: 20%;
     color: lightgray;
     margin: 1rem 7em;
+  }
+  nav a {
+    font-size: 1.5rem;
   }
 }
