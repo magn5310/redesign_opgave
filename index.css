@@ -145,6 +145,7 @@ p {
   input {
     display: block;
     margin-top: 1%;
+    margin-bottom: 2%;
     width: 45%;
   }
   h2 {
@@ -158,6 +159,7 @@ p {
   }
   video {
     margin-top: 3rem;
+    margin-left: 2rem;
   }
   .gridbillede {
     grid-row: 1;
@@ -166,5 +168,8 @@ p {
   .gridtext {
     grid-row: 1;
     grid-column: 3/5;
+  }
+  nav a {
+    font-size: 1.5rem;
   }
 }
