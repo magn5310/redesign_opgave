@@ -97,3 +97,11 @@ h3 {
 p {
   line-height: 2;
 }
+
+.order {
+  order: -1;
+}
+
+img {
+  margin: 5px 5px 5px 5px;
+}
