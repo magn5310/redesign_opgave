@@ -7,6 +7,7 @@ p {
 
 img {
   padding: 0 1rem;
+  margin-bottom: 5rem;
 }
 #billet {
   background-image: url(billeder/omosbillet.webp);
@@ -32,6 +33,11 @@ img {
     grid-row: 4;
     margin-left: 5rem;
   }
+  .gridtext5 {
+    grid-column: 1;
+    grid-row: 5;
+    margin-left: 5rem;
+  }
 
   .gridimg1 {
     grid-column: 2;
@@ -39,7 +45,7 @@ img {
   }
   .gridimgfonde {
     grid-column: 2;
-    grid-row: 4;
+    grid-row: 5;
     margin: 4rem 6rem 0 0;
   }
   h2 {
