@@ -38,7 +38,7 @@ form {
 }
 .formgrid {
   display: grid;
-  grid-template-columns: 1fr, 1fr, 1fr;
+  margin-bottom: 2rem;
 }
 .formplace {
   grid-column: 2;
@@ -52,7 +52,7 @@ input {
 
 .gridforside {
   display: grid;
-  grid-template-rows: auto, 1fr;
+
   grid-template-columns: repeat(4, 1fr);
   margin: 5rem 2rem;
   gap: 20px;
@@ -154,7 +154,7 @@ p {
   }
   .gridforside {
     display: grid;
-    grid-template-rows: auto, 1fr;
+
     grid-template-columns: repeat(4, 1fr);
     margin: 5rem 7.5rem;
     gap: 20px;

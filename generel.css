@@ -64,6 +64,9 @@ body {
   background-position: 50% 30%;
   height: 100vh;
 }
+.bgbody {
+  background-image: url(billeder/Curtains.webp);
+}
 
 /***********farver og fonte**********/
 
