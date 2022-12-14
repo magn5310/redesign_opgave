@@ -71,6 +71,10 @@
   .div3 {
     grid-area: 3 / 1 / 4 / 3;
   }
+
+  p h2 {
+    max-width: none;
+  }
 }
 
 main {
