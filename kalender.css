@@ -27,9 +27,6 @@ nav {
   font-family: Oranienbaum;
 }
 
-li {
-  font-size: 1.1rem;
-}
 #billet {
   background-image: url(billeder/kalenderbillet.webp);
 }
@@ -48,12 +45,18 @@ li {
 
 /************img************/
 
-.snirkel {
-  top: 0%;
-  left: 26%;
-  width: 100%;
-  height: 100%;
-}
 body {
   background-position: 50% 10%;
+}
+
+@media (min-width: 800px) {
+  section {
+    margin: 15rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  h2 {
+    margin-top: 4rem;
+  }
 }
