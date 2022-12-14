@@ -139,4 +139,19 @@ main {
   p {
     line-height: 2;
   }
+  nav {
+    text-transform: uppercase;
+    margin: 0 6.5rem;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .line {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-bottom: 1px solid;
+    border-radius: 20%;
+    color: lightgray;
+    margin: 1rem 7em;
+  }
 }
