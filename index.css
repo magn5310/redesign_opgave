@@ -18,6 +18,11 @@ h1 {
   justify-content: center;
   font-family: special elite;
 }
+.teasertext {
+  text-align: center;
+  margin: 0 1.2rem;
+  margin-bottom: 2rem;
+}
 
 button {
   margin-top: 1rem;
@@ -92,6 +97,25 @@ p {
   main {
     margin-left: 2.4rem;
   }
+  .teasertext {
+  }
+  nav {
+    text-transform: uppercase;
+    margin: 0 6.5rem;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .line {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-bottom: 1px solid;
+    border-radius: 20%;
+
+    color: lightgray;
+    margin: 1rem 7em;
+  }
+
   .indexknap {
     color: black;
     background-color: #d7cbc1;
