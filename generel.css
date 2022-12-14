@@ -35,6 +35,7 @@ footer p {
 .logoimg {
   display: grid;
   grid-column: 3/5;
+  margin-left: 0;
 }
 
 img {
