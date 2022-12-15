@@ -20,6 +20,10 @@ h1 {
   justify-content: center;
   font-family: special elite;
 }
+
+.indexknap:hover {
+  color: red;
+}
 .teasertext {
   text-align: center;
   margin: 0 1.2rem;
