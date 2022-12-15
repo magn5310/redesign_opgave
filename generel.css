@@ -118,8 +118,12 @@ h3 {
   margin: 30px;
   font-family: Oranienbaum;
 }
-
 a:hover {
+  color: red;
+  transition: 0.2s;
+}
+
+nav a:hover {
   color: burlywood;
   transition: 0.2s;
 }
